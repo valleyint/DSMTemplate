@@ -10,7 +10,7 @@ This repository contains a custom LaTeX class (`labreport.cls`) and a template f
 ## Setup Instructions
 
 1. Place both `labreport.cls` and `main.tex` in the same folder.
-2. Ensure any referenced image files (e.g., `screenshot.png`) are also located in this folder.
+2. Ensure any referenced image files (e.g., `sample.jpg`) are also located in this folder.
 3. Compile `main.tex` using your preferred LaTeX compiler (such as pdfLaTeX) or a cloud-based editor like Overleaf.
 
 ## Document Configuration
