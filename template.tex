@@ -1,0 +1,71 @@
+\documentclass{labreport}
+
+% ==========================================
+%           HEADER DATA
+% ==========================================
+\labnum{<Lab Number>}
+\tablenum{<Table No.>}
+\labroomnum{<Lab Room No.>}
+\studentone{<Full Name>}{<Roll No.>}
+\studenttwo{<Full Name>}{<Roll No.>}
+\reportdate{<DD/MM/YYYY>}
+
+\begin{document}
+
+% Generates your custom title and tabular layout
+\makeheader
+
+% Generates the Experiment heading 
+\makeexperiment{X}{<Experiment Title>}
+
+\begin{labaim}
+    (follow this format for all experiments in the lab handout) \\
+    <State the aim of the experiment in one sentence. >
+\end{labaim}
+
+\begin{labcomponents}
+    \begin{itemize}
+        \item <Component 1 - e.g. IC number or module name>
+        \item <Component 2>
+        \item <Component 3>
+        \item <Component 4>
+    \end{itemize}
+\end{labcomponents}
+
+\begin{labprocedure}
+    \begin{itemize}
+        \item <Step 1>
+        \item <Step 2>
+        \item <Step 3>
+        \item <Step 4>
+        \item <Step 5>
+    \end{itemize}
+\end{labprocedure}
+
+\begin{labobservation}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{<Input A>} & \textbf{<Input B>} & \textbf{<Output Y>} \\
+            \hline
+             & & \\
+             & & \\
+             & & \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \noindent <Add or remove rows/columns to match the number of inputs and outputs in your circuit.> \\[1em]
+    <Write a short paragraph here describing what the truth table shows: summarise the behaviour you observed on the hardware and/or simulation, and state clearly whether it matched the expected behaviour of the circuit. Note any discrepancies and a likely explanation for them.>
+\end{labobservation}
+
+% Uses your 3-argument command: {URL}{Image File}{Caption}
+\maketklink{https://smthing.smthing}{sample.jpg}{TINKERCAD SCREENSHOT}
+
+\begin{labpics}
+    \placeholderbox{LAB PHOTOGRAPH}{Insert photo of assembled hardware here} 
+    <Caption each photo/video clearly; use a Drive link for videos.>
+\end{labpics}
+
+\end{document}
