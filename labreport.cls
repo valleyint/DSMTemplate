@@ -162,7 +162,7 @@
 \def\endlabobservation{\par\addvspace{1.5em}}
 
 
-\def\labpics{
+\newcommand{\labpics}[2]{
     \normalfont
     \makeheading{Pictures}
     \normalsize
@@ -179,7 +179,7 @@
     \end{center}
 }
 
-\newcommand{\maketklink}[2]{
+\newcommand{\maketklink}[3]{
     \normalfont
     \makeheading{Simulation Link (TinkerCAD)}
     \normalsize\scshape
