@@ -158,7 +158,7 @@
 }
 \def\endlabcode{
     \par\addvspace{1.5em}
-    end{lstlisting}
+    \end{lstlisting}
 }
 
 % --- COMPONENTS SECTION ---
