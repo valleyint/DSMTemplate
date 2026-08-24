@@ -25,17 +25,21 @@
 \RequirePackage{multicol}
 \RequirePackage{float}
 \RequirePackage{listings}
+\RequirePackage{jetbrainsmono}
+
+\renewcommand{\familydefault}{\ttdefault}
 
 \setlength{\parindent}{0pt}
 
-
+\definecolor{codebg}{rgb}{0.95, 0.95, 0.95} % Defines a soft gray
 \lstset{
-    frame=tb, % Adds a frame at the top and bottom
+    frame=b, % Adds a frame at the top and bottom
     language=C, % Sets default language
     keywordstyle=\color{blue}, % Style for keywords
     basicstyle=\ttfamily, % Use monospaced font
     breaklines=true, % Automatically wrap long lines
     numbers=left % Add line numbers on the left
+    backgroundcolor=\color{codebg}
 }
 
 % ==========================================
