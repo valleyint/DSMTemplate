@@ -25,9 +25,7 @@
 \RequirePackage{multicol}
 \RequirePackage{float}
 \RequirePackage{listings}
-\RequirePackage{jetbrainsmono}
 
-\renewcommand{\familydefault}{\ttdefault}
 
 \setlength{\parindent}{0pt}
 
