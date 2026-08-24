@@ -149,16 +149,14 @@
 }
 \def\endlabaim{\par\addvspace{1.5em}}
 
-
-\def\labcode{
+% ADD THIS INSTEAD
+\lstnewenvironment{labcode}
+{
     \normalfont
-
-   \makeheading{Code}
-   \begin{lstlisting}
+    \makeheading{Code}
 }
-\def\endlabcode{
+{
     \par\addvspace{1.5em}
-    \end{lstlisting}
 }
 
 % --- COMPONENTS SECTION ---
