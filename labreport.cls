@@ -149,6 +149,18 @@
 }
 \def\endlabaim{\par\addvspace{1.5em}}
 
+
+\def\labaim{
+    \normalfont
+
+   \makeheading{Code}
+   \begin{lstlisting}
+}
+\def\endlabaim{
+    \par\addvspace{1.5em}
+    end{lstlisting}
+}
+
 % --- COMPONENTS SECTION ---
 \def\labcomponents{
     \normalfont
