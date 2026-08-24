@@ -175,7 +175,7 @@
         \caption{#2}
     \end{figure}
     \par
-    \addvspace{1.5em}
+    \vspace{1.5em}
     \end{center}
 }
 
