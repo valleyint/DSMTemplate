@@ -156,7 +156,7 @@
     \makeheading{Code}
 }
 {
-    \par\addvspace{1.5em}
+    \vspace{1.5em}
 }
 
 % --- COMPONENTS SECTION ---
