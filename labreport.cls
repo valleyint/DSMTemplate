@@ -23,6 +23,7 @@
 \RequirePackage{caption}
 \RequirePackage{xcolor} % Required for the grey line
 \RequirePackage{multicol}
+\RequirePackage{figure}
 
 \setlength{\parindent}{0pt}
 
@@ -165,19 +166,15 @@
 \newcommand{\labpics}[2]{
     \normalfont
     \makeheading{Pictures}
-    \normalsize
+    \normalsize\scshape
     {\par\addvspace{1.5em}}
-    \begin{center}
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         % Limits the image width to 80% of the page width so it doesn't overflow
         \includegraphics[width=0.8\linewidth]{#1}
         \vspace{0.5em}
         \caption{#2}
     \end{figure}
-    \par
-    \vspace{1.5em}
-    \end{center}
 }
 
 \newcommand{\maketklink}[3]{
@@ -189,7 +186,7 @@
     {\par\addvspace{1.5em}}
 
     \makeheading{TinkerCAD Screenshot}
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         % Limits the image width to 80% of the page width so it doesn't overflow
         \includegraphics[width=0.8\linewidth]{#2}
