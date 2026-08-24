@@ -23,7 +23,7 @@
 \RequirePackage{caption}
 \RequirePackage{xcolor} % Required for the grey line
 \RequirePackage{multicol}
-\RequirePackage{figure}
+\RequirePackage{float}
 
 \setlength{\parindent}{0pt}
 
