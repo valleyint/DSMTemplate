@@ -36,7 +36,7 @@
     keywordstyle=\color{blue}, % Style for keywords
     basicstyle=\ttfamily, % Use monospaced font
     breaklines=true, % Automatically wrap long lines
-    numbers=left % Add line numbers on the left
+    numbers=left, % Add line numbers on the left
     backgroundcolor=\color{codebg}
 }
 
