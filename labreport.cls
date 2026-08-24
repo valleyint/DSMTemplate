@@ -167,8 +167,13 @@
     \makeheading{Pictures}
     \normalsize
     \begin{center}
-}
-\def\endlabpics{
+    \begin{figure}[h]
+        \centering
+        % Limits the image width to 80% of the page width so it doesn't overflow
+        \includegraphics[width=0.8\linewidth]{#1}
+        \vspace{0.5em}
+        \caption{#2}
+    \end{figure}
     \par
     \addvspace{1.5em}
     \end{center}
