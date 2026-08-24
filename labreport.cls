@@ -179,7 +179,7 @@
     \end{center}
 }
 
-\newcommand{\maketklink}[3]{
+\newcommand{\maketklink}[2]{
     \normalfont
     \makeheading{Simulation Link (TinkerCAD)}
     \normalsize\scshape
