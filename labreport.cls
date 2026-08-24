@@ -150,13 +150,13 @@
 \def\endlabaim{\par\addvspace{1.5em}}
 
 
-\def\labaim{
+\def\labcode{
     \normalfont
 
    \makeheading{Code}
    \begin{lstlisting}
 }
-\def\endlabaim{
+\def\endlabcode{
     \par\addvspace{1.5em}
     end{lstlisting}
 }
