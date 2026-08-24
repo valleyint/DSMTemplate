@@ -166,6 +166,7 @@
     \normalfont
     \makeheading{Pictures}
     \normalsize
+    {\par\addvspace{1.5em}}
     \begin{center}
     \begin{figure}[h]
         \centering
