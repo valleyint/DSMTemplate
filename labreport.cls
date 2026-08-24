@@ -24,7 +24,7 @@
 \RequirePackage{xcolor} % Required for the grey line
 \RequirePackage{multicol}
 \RequirePackage{float}
-\RequirePackage{listing}
+\RequirePackage{listings}
 
 \setlength{\parindent}{0pt}
 
