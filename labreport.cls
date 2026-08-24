@@ -24,8 +24,19 @@
 \RequirePackage{xcolor} % Required for the grey line
 \RequirePackage{multicol}
 \RequirePackage{float}
+\RequirePackage{listing}
 
 \setlength{\parindent}{0pt}
+
+
+\lstset{
+    frame=tb, % Adds a frame at the top and bottom
+    language=C, % Sets default language
+    keywordstyle=\color{blue}, % Style for keywords
+    basicstyle=\ttfamily, % Use monospaced font
+    breaklines=true, % Automatically wrap long lines
+    numbers=left % Add line numbers on the left
+}
 
 % ==========================================
 %           CUSTOM COMMANDS
